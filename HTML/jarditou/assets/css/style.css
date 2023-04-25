@@ -1,45 +1,107 @@
-
 header {
-    margin-block-end: 3px;
-    margin-inline-end: 150px;
-    padding: 20px 0;
-    top: 30px;
-    background-color: black;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+div { display: flex;
+    width: 50%;
+    text-align: center;
+
 }
 
-.slogant{ 
+
+
+nav {
+  
+    padding: 1%;
+    width: auto;
+    height: auto;
+    background-color: #000000;
+}
+
+
+#logo{
+    width: 310px;
+    height: 100px;
+}
+#slogant{ 
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 25px;
-    position: absolute;
-    top: 30px;
-    right: 500px;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 45px;
+    margin-bottom: 5px;
+
+}
+
+#promotion {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: auto;
+    height: 250px;
+
+}
+
+section
+{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+p {
+    line-height: 3em;     
+ }
+body{
+    
+    display: flex;
+    flex-direction: column;
+
+  
+    
+ 
+}
+
+
+h3 { 
+    font-size: xx-large;
 
 
 }
 
+h4 {
+    font-size: larger;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 57%;
+    height: auto;
 
+}
+aside {
+    display: flex;
+    flex-direction: column;
+
+    width: 42%;
+    height: auto;
+    background-color: lightgrey;
+    
+}
+
+footer {
+    padding: 1%;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    background-color: #000000;
+}
 .menu {
     color: aliceblue;
-    background-color: black;
     margin: 20px;
     padding: 20px 0;
     width: 100%;
    
-}
-
-
-body{
-    margin-left: 90px;
-  
-    padding: 0px;
-
-}
-
-footer {
-    margin-block-end: 3px;
-    margin-inline-end: 150px;
-    padding: 20px 0;
-    top: 30px;
-    background-color: black;
-    
 }

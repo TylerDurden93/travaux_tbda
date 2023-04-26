@@ -1,107 +1,212 @@
-header {
+    header {
+
     display: flex;
     flex-direction: row;
-    
-
 }
-div { display: flex;
+
+    div {
+    display: flex;
     width: 50%;
     text-align: center;
-
 }
 
-
-
-nav {
-  
+    nav {
     padding: 1%;
     width: auto;
     height: auto;
     background-color: #000000;
 }
 
-
-#logo{
+    #logo {
     width: 310px;
     height: 100px;
 }
-#slogant{ 
+
+    #slogant {
+
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 25px;
     position: relative;
     margin-left: 10%;
     margin-top: 45px;
     margin-bottom: 5px;
-
 }
 
-#promotion {
+    #promotion {
+
     margin-top: 5px;
     margin-bottom: 5px;
     width: auto;
     height: 250px;
-
 }
 
-section
-{
+    section {
     display: flex;
     justify-content: space-between;
-
-
 }
-p {
+
+    p {
     line-height: 3em;     
  }
-body{
-    
+
+    body {    
     display: flex;
     flex-direction: column;
-
-  
-    
- 
 }
 
-
-h3 { 
+    h1 { 
     font-size: xx-large;
-
-
 }
 
-h4 {
+    h2 {
     font-size: larger;
 }
-article {
+
+    article {
     display: flex;
     flex-direction: column;
-    text-align: left;
-    width: 57%;
+    width: 60%;
     height: auto;
-
 }
-aside {
+
+    aside {
     display: flex;
     flex-direction: column;
-
-    width: 42%;
+    width: 40%;
     height: auto;
     background-color: lightgrey;
-    
 }
 
-footer {
+    footer {
     padding: 1%;
     width: auto;
     height: auto;
     margin-top: 5px;
     background-color: #000000;
 }
-.menu {
+
+    .menu {
     color: aliceblue;
     margin: 20px;
     padding: 20px 0;
     width: 100%;
+}
+
+
+
+
+/* -------------------------------------------------------------RESPONSIVE ---------------------------------------------------------------------------------- */
+
+
+
+@media screen and (max-width: 768px) 
+     
+
+{ 
+
+    #logo { 
+        width: 310px;
+        height: 70px;
+        margin-top: 0px;
+    } 
+
+    #slogant { 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 15px;
+        position: relative;
+        margin-left: 20%;
+        margin-top: 50px;
+    }
+
+    .menu { 
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        width: auto;
+        height: auto;
+        line-height: 0px;
+    }
+
+    nav {  
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        width: auto;
+        height: auto;
+        background-color: #000000;
+    }
+
+    #promotion {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: auto;
+        height: 100px;
+    }
+
+    section {
+        width: auto;
+        display: flex;
+        text-align: center;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 83%;
+        height: auto;    
+    }
+
+    p {
+        font-size: 11px;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        margin-right: auto;
+        width: auto;
+    }   
+ 
+    h1 {
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        width: auto;
+    }
+
+    h2 {
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        width: auto;    
+    }
+
+    aside {
+        display: none;        
+    }
    
+    
+  
+
+
+
+    /********************** tableau ******************************************************/
+    
+
+
+    .tableau {
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        width: auto;
+        font-size: auto;
+    }  
+
+    .valeur-tableau {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    width: auto;
+    font-size: auto;
+}
+
 }

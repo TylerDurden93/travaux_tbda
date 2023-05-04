@@ -1,0 +1,26 @@
+exercicrd 3.2
+
+
+debut
+
+ecrire " saisissez 2 nombre" (nb1-nb2)
+lire nb1 , nb2
+si ( nb1 > 0 et nb2 > 0 ) ou ( nb1 < 0 et nb2 < 0)
+alors 
+ecrire "le produit des 2 nombre est postif"
+sinon  
+ecrire "le produit des 2 nombres est negatif"
+finsi
+fin
+
+
+exercicre 3.3
+
+ecrire " donnez 3 noms"
+lire "mot1,mot2,mot3"
+si (mot1<mot2 et mot2<mot3)
+alors 
+ecrire "c'est dans l"ordre"
+sinon
+ecrire " c'est pas dans l'ordre"
+fin

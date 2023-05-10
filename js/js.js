@@ -1,36 +1,91 @@
-{
+// {
     
-var prenom = prompt("saisissez votre prenom");
+// var prenom = prompt("saisissez votre prenom");
 
-var nom = prompt("saisissez votre nom");
+// var nom = prompt("saisissez votre nom");
 
-alert("votre prénom est " + prenom + " et votre nom est "+ nom);
+// alert("votre prénom est " + prenom + " et votre nom est "+ nom);
 
-}
+// }
 
 
-{
+// {
 
+// var nbr1 =Number(prompt("saisissez un nombre"));
+
+// var nbr2 =Number(prompt("saisissez un deuxieme nombre"));
+
+// var result = nbr1 + nbr2;
+
+// alert("le produit de vos nombres est " + result);
+
+// }
+
+
+// {
+
+// var C = Number(prompt("saisissez une temperature en degrés Celsius"));
+
+// var F = (C*9/5) + 32;
+
+// var result = F;
+
+// alert("la conversion en Fahrenheit est " + result);
+
+// }
+// exercice6 
+// var a = "100";
+// var b = 100;
+// var c = 1.00;
+// var d = true;
+
+// {
+
+// alert("ceci est une chaîne de caractères: " + a);
+
+// }
+
+// b = b--;
+// c = c + a;
+// d =! d;
+
+// chappitre 7 exercice 1 parité //
 var nbr1 =Number(prompt("saisissez un nombre"));
 
-var nbr2 =Number(prompt("saisissez un deuxieme nombre"));
+var result = nbr1%2;
 
-var result = nbr1 + nbr2;
-
-alert("le produit de vos nombres est " + result);
-
-}
-
+if(result==0)
 
 {
 
-var C = Number(prompt("saisissez une temperature en degrés Celsius"));
-
-var F = (C*9/5) + 32;
-
-var result = F;
-
-alert("la conversion en Fahrenheit est " + result);
+alert("votre nombre est pair");
 
 }
-// //*IF CONFIRME - PROMPT - ALERT - //
+
+else
+{
+
+alert("votre nombre est impair");
+
+}
+
+// chapitre 7 exercice 2//
+
+var année =Number(prompt("saisissez votre année de naissance"));
+
+if (année=>2005)
+    {
+    alert("vous etes majeur");
+    }
+else 
+    {
+    alert("vous etes mineur");
+    }
+
+    //chapitre 7 exercice 3//
+
+var nbr1 =Number(prompt("saisissez un premier nombre"));
+var opérateur =Number(prompt"saisissez un opérateur");
+var nbr2 = Number(prompt("saisissez un deuxieme nombre"));
+
+

@@ -136,10 +136,3 @@ switch (operateur) {
         alert("erreur de saisie")
 
 }
-
-// else if (opérateur!="+"||"adition"||"-"||"soustraction"||"*"||"multiplication"||"/"||"division")
-
-//     {
-//         alert("vous avez fait une erreur de saisie");
-//     }
-

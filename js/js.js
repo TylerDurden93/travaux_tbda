@@ -85,54 +85,106 @@
 
 //chapitre 7 exercice 3//
 
-var nbr1 = parseFloat(prompt("saisissez un premier nombre"));
-var operateur = prompt("saisissez un opérateur");
-var nbr2 = parseFloat(prompt("saisissez un deuxieme nombre"));
+// var nbr1 = parseFloat(prompt("saisissez un premier nombre"));
+// var operateur = prompt("saisissez un opérateur");
+// var nbr2 = parseFloat(prompt("saisissez un deuxieme nombre"));
 
 
 
-let result;
+// let result;
 
-switch (operateur) {
+// switch (operateur) {
 
 
-    case "/":
-        if  (nbr2==0) {
-            alert("vous ne pouvez pas diviser par 0")
-        }
+//     case "/":
+//         if  (nbr2==0) {
+//             alert("vous ne pouvez pas diviser par 0")
+//         }
 
-        alert("resultat de la division est " + (nbr1 / nbr2));
+//         alert("resultat de la division est " + (nbr1 / nbr2));
 
+//         break;
+
+//     case "+":
+
+
+
+//         alert("resultat de la sommes est " + (nbr1 + nbr2));
+
+//         break;
+
+
+//     case "-":
+
+
+
+//         alert("resultat de la soustraction est " + (nbr1 - nbr2));
+
+//         break;
+
+//     case "*":
+
+
+
+//         alert("resultat de la multiplication est " + (nbr1 * nbr2));
+
+//         break;
+
+//     default:
+
+//         alert("erreur de saisie")
+
+// }
+
+// var i = 0;
+
+// console.log("Table de multiplication par 5");
+// console.log("=============================");
+
+// while (i <= 20)
+
+// {
+//     // Exécute le calcul et stocke le résultat   
+//     // dans une variable nommée ‘resultat’  
+//     resultat = 5 * i;
+
+//     // A chaque tour, on affiche le résultat courant à l’utilisateur
+//     console.log("Le résultat de 5 x " + i + " est : " + resultat);
+
+//     // A chaque tour, on ajoute +1 à la variable i  
+//     i++;
+// }
+
+// *****EVALUATION*****
+
+var age;
+var jeunes =0;//age<20
+var adultes=0;//age>20 && age>40
+var vieux=0;//age>40 && age<100
+var centenaires=0;//age>99
+
+            while (true) 
+
+{
+
+    age=prompt("ecrivez un age")
+
+    if(age>99)
+    
+    {
         break;
+    }
+    console.log(age);
+}
+    
+while (age) 
 
-    case "+":
+{
+    
+    if(age<20)
 
-
-
-        alert("resultat de la sommes est " + (nbr1 + nbr2));
-
-        break;
-
-
-    case "-":
-
-
-
-        alert("resultat de la soustraction est " + (nbr1 - nbr2));
-
-        break;
-
-    case "*":
-
-
-
-        alert("resultat de la multiplication est " + (nbr1 * nbr2));
-
-
-        break;
-
-    default:
-
-        alert("erreur de saisie")
+    {
+        
+    }
 
 }

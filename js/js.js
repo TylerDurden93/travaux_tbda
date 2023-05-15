@@ -203,7 +203,21 @@
 
 
 // evaluation exercice 2//
-var nombre =Number(prompt("saisissez un nombre"));
-var multiplicateur=++;
-var result = nombre * multiplicateur;
-nombre=prompt("saisissez un nombre");
+var nombre=Number(prompt("saisissez un nombre"));
+
+var i=0
+
+console.log("Table de "+nombre);
+console.log("=============================");
+
+do 
+{   
+    resultat = nombre * i;
+
+    console.log(nombre*i);
+
+    i++;
+} while (i <= 10) ;
+
+
+console.log("fin de table");

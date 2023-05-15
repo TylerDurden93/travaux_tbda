@@ -204,20 +204,18 @@
 
 // evaluation exercice 2//
 var nombre=Number(prompt("saisissez un nombre"));
-
 var i=0
 
 console.log("Table de "+nombre);
-console.log("=============================");
 
 do 
 {   
-    resultat = nombre * i;
-
-    console.log(nombre*i);
+   console.log(nombre*i);
 
     i++;
-} while (i <= 10) ;
+console.log(nombre+ "x"+ i)
+} while (i <= 9) ;
 
 
 console.log("fin de table");
+

@@ -204,18 +204,23 @@
 
 // evaluation exercice 2//
 var nombre=Number(prompt("saisissez un nombre"));
-var i=0
+var i= -1;
+var resultat;
 
+
+function multiplication(nombre,i) {
+    
 console.log("Table de "+nombre);
-
 do 
-{   
-   console.log(nombre*i);
-
+{
     i++;
-console.log(nombre+ "x"+ i)
-} while (i <= 9) ;
+    console.log(nombre+ "x"+ i+"= "+nombre*i) ;
+} 
+while (i <= 9) ;
+console.log("fin");
+}
 
 
-console.log("fin de table");
+
+var resultat= multiplication(nombre,i);
 

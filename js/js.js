@@ -155,36 +155,55 @@
 //     i++;
 // }
 
-// *****EVALUATION*****
+// *****EVALUATION exercice 1*****
 
-var age;
-var jeunes =0;//age<20
-var adultes=0;//age>20 && age>40
-var vieux=0;//age>40 && age<100
-var centenaires=0;//age>99
+// var age;
+// var jeunes=0;//age<20
+// var adultes;//age>20 && age>40
+// var seniors;//age>40 && age<100
+// var centenaires;//age>99
 
-            while (true) 
 
-{
 
-    age=prompt("ecrivez un age")
 
-    if(age>99)
+//             while (true) 
+
+// {
+
+//     age=prompt("ecrivez un age")
+
+
+//     if(age>99){
+
+
+//         console.log("categorie centenaire")
+ 
+//         break;
+
+//     }
+//     console.log(age + " ans");
+
+// if (age<20){
+
+//     console.log(" categorie jeune");
+
+// }
+
+// if (age<41 && age>19) {
+
+//     console.log(" categorie adulte ");
     
-    {
-        break;
-    }
-    console.log(age);
-}
-    
-while (age) 
+// }
+//  if (age>40 && age<99) {
+//     console.log(" categorie seniors");
 
-{
-    
-    if(age<20)
+//  }
 
-    {
-        
-    }
+// }
 
-}
+
+// evaluation exercice 2//
+var nombre =Number(prompt("saisissez un nombre"));
+var multiplicateur=++;
+var result = nombre * multiplicateur;
+nombre=prompt("saisissez un nombre");

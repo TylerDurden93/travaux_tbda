@@ -157,70 +157,53 @@
 
 // *****EVALUATION exercice 1*****
 
-// var age;
-// var jeunes=0;//age<20
-// var adultes;//age>20 && age>40
-// var seniors;//age>40 && age<100
-// var centenaires;//age>99
+// var age = 0;
+// var jeunes = 0;//age<20
+// var adultes = 0;//age>20 && age>40
+// var seniors = 0;//age>40 && age<100
 
 
+// while (age >= 0) {
+
+//     age = prompt("ecrivez un age")
 
 
-//             while (true) 
+//     if (age < 20) {
+//         jeunes++;
 
-// {
+//     }
 
-//     age=prompt("ecrivez un age")
+//     else if (age <= 40 && age >= 20) {
+//         adultes++;
 
+//     }
+//     else if (age > 40 && age < 100) {
+//         seniors++;
+//     }
+//     else {
 
-//     if(age>99){
+//         seniors++;
 
-
-//         console.log("categorie centenaire")
- 
 //         break;
 
 //     }
-//     console.log(age + " ans");
-
-// if (age<20){
-
-//     console.log(" categorie jeune");
 
 // }
-
-// if (age<41 && age>19) {
-
-//     console.log(" categorie adulte ");
-    
-// }
-//  if (age>40 && age<99) {
-//     console.log(" categorie seniors");
-
-//  }
-
-// }
-
+// console.log("le nombre de jeunes est "+ jeunes);
+// console.log("le nombre d'adultes "+ adultes);
+// console.log("le nombre de seniors est " + seniors);
 
 // evaluation exercice 2//
-var nombre=Number(prompt("saisissez un nombre"));
-var i= -1;
-var resultat;
+// console.log("conecté")
+// var nombre = parseInt(prompt("saisissez un nombre"));
 
-
-function multiplication(nombre,i) {
+// function multiplication(nombre) {
+//     console.log("Table de " + nombre);
+//     for (var i=0;i<=10;i++) {
     
-console.log("Table de "+nombre);
-do 
-{
-    i++;
-    console.log(nombre+ "x"+ i+"= "+nombre*i) ;
-} 
-while (i <= 9) ;
-console.log("fin");
-}
+//         console.log(nombre + "x" + i + "= " + nombre * i);
+//     }
 
-
-
-var resultat= multiplication(nombre,i);
-
+    
+// }
+// multiplication(nombre);
